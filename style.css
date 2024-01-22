@@ -6,10 +6,13 @@ body{
 
 .imgg{
     margin-top: -15px;
-    width: 200px;
+    width: 170px;
     border-radius: 50%;
     border: 3px solid grey;
     box-shadow: -5px -5px 50px grey;
+}
+.contact{
+    width: 200px;
 }
 .container{
     display: flex;
@@ -17,15 +20,14 @@ body{
     align-items: center; margin-top: 3em;
 }
 .social-media{
-    margin-top: 27px;
-    padding: 10px 20px 10px 20px;
     width: 100%;
-    border-radius: 20px;
-    display: flex;
-    justify-content: space-between;
+}
+
+.projrcts a{
+    text-decoration: none;
+    border-bottom: 1px solid grey;
 }
 a{
-    text-decoration: none;
     color: rgba(128, 128, 128, 0);
 }
 .color-change {
@@ -63,25 +65,45 @@ font-size: 40px;
 }
 
 .forNonMobileScreen{
-width: 35px;
+width: 25px;
 }
 
 .name{
 text-align: center;
 }
+.projrcts{
+    margin-top: 20px;
+    margin-left: 45px;
+}
 @media only screen and (max-width: 600px) {
 .imgg {
 width: 120px; /* Adjust width for smaller screens */
 }
+.projrcts{
+    margin-top: 20px;
+    margin-left: -5px;
+}
 
 .social-media {
-margin-top: -120px; /* Adjust margin for smaller screens */
-padding: 15px; /* Adjust padding for smaller screens */
-box-shadow: 15px 5px 150px rgba(128, 128, 128, 0.438);
+border: 1px solid grey;
+height: 50px;
+border-radius: 7px;
+padding-left: 10px;
+padding-bottom: 20px;
+width: 120px;
+margin-left: 40px;
+}
+.contact{
+    border-radius: 7px;
+    height: 50px;
+    border: 1px solid grey;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    width: 130px;
 }
 .name{
 margin-top: 20px;
-margin-bottom: 100px;
+margin-bottom: -10px;
 text-align: center;
 }
 .shadow-lg{
@@ -93,6 +115,13 @@ max-height: 95%;
 transition: transform 0.3s ease-in-out;
 }
 .forMobileScreen{
-width: 30px;
+width: 20px;
+}
+.contact-follow-me{
+    font-size: 0.7em;
+    margin-bottom: 4px;
+    margin-top: -8px;
+    background: rgba(0, 0, 0, 0.171);
+    width: fit-content;
 }
 }
