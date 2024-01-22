@@ -75,6 +75,11 @@ text-align: center;
     margin-top: 20px;
     margin-left: 45px;
 }
+
+.linkedin{
+    width: 33px;
+    margin-top: -4px;
+}
 @media only screen and (max-width: 600px) {
 .imgg {
 width: 120px; /* Adjust width for smaller screens */
@@ -90,7 +95,7 @@ height: 50px;
 border-radius: 7px;
 padding-left: 10px;
 padding-bottom: 20px;
-width: 120px;
+width: 155px;
 margin-left: 40px;
 }
 .contact{
@@ -116,6 +121,10 @@ transition: transform 0.3s ease-in-out;
 }
 .forMobileScreen{
 width: 20px;
+}
+.linkedin{
+    width: 30px;
+    margin-top: -2px;
 }
 .contact-follow-me{
     font-size: 0.7em;
