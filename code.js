@@ -3,7 +3,7 @@ document.getElementById('thumbnail').addEventListener('click', function() {
     document.getElementById('thumbnail').style.display = 'none';
     document.getElementById('name').style.display = 'none';
     document.getElementById('projrcts').style.display = 'none';
-    document.getElementById('info-and-social').style.display = 'none';
+    document.getElementById('info-an d-social').style.display = 'none';
   });
   
   document.getElementById('closeBtnnnn').addEventListener('click', function() {

@@ -30,6 +30,11 @@ body{
 a{
     color: rgba(128, 128, 128, 0);
 }
+
+
+li:hover{
+    color: rgba(253, 159, 150, 0.765);
+}
 .color-change {
 filter: invert(100%); /* Invert all colors (white becomes black) */
 }
@@ -68,12 +73,12 @@ font-size: 40px;
 width: 25px;
 }
 
+
 .name{
 text-align: center;
 }
 .projrcts{
     margin-top: 20px;
-    margin-left: 45px;
 }
 
 .linkedin{
